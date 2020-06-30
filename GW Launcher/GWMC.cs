@@ -102,7 +102,7 @@ namespace GWMC_CS
             if (gwpath == "Gw.exe")
                 gwpath = Environment.CurrentDirectory + "\\Gw.exe";
 
-            try
+/*            try
             {
                 if (Registry.GetValue("HKEY_LOCAL_MACHINE\\SOFTWARE\\ArenaNet\\Guild Wars", "Src", null) != null)
                 {
@@ -120,7 +120,7 @@ namespace GWMC_CS
             {
                 MessageBox.Show("Insufficient access rights.\nPlease restart the launcher as admin.", "GWMC - Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
-            }
+            }*/
            
 
             if (!File.Exists(Environment.CurrentDirectory + "\\GWMC.ini"))
